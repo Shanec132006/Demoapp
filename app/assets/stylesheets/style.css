@@ -1,0 +1,10 @@
+ @grayLight: #999;
+
+.container{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+body{
+	color: @grayLight;
+}

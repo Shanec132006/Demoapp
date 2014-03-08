@@ -1,4 +1,5 @@
 Demoapp::Application.routes.draw do
+  get "users/new"
   match '/signup',  to: 'users#new',            via: 'get'
   match '/home', to: 'static_pages#home', via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'
